@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding:  0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.bg-color{
+    background-color: white;
+}
+
+.btn-top{
+    font-size: 40px;
+    color: black;
+   
+}
+
+#myBtn-top{
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    z-index: 99;
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: none;
+}
+
+#myBtn-top:hover{
+    color: turquoise;
+    transition: all .5s;
+}
+.nav-color{
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.1em;
+    padding: 10px;
+
+}
+
+.nav-color .nav-linka{
+    text-decoration: none;
+    color: black;
+    transition: all .3s;
+}
+.nav-color .nav-linka:hover{
+    color: turquoise;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+#scrollPath{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 7px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+#processbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 7px;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%, 100%
+    {
+        filter: hue-rotate(0deg);
+    }
+    50%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+#processbar:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter: blur(10px);
+}
+
+#processbar:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter: blur(30px);
+}
+/* 
+.navbarmain{
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+
+
+.ulNavbar{
+    list-style-type: none;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+   
+}
+
+.liNavbar{
+    float: left;
+    font-size: 0.9em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 30px;
+}
+
+
+.liNavbar .aNavbar{
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 5px;
+    
+}
+
+.liNavbar .aNavbar:hover{
+    color: turquoise;
+    transition: all .3s;
+} */
+
+.colorlinkNav{
+    transition: all .3s;
+    display: inline-block;
+    font-size: 1.3em;
+    margin-left: 5px;
+    padding-left: 25px;
+    color: black;
+}
+
+.colorlinkNav:hover{
+    color: turquoise;
+    transition: all .3s;
+}
+
+
+.subnav{
+    float: left;
+    overflow: hidden;
+    transition: all .3s;
+    color: black;
+}
+
+.subnav-content .subNav:hover{
+    color: turquoise;
+    transition: all .3s;
+}
+.subnav-content {
+    position: fixed;
+    display: none;
+    left: 0;
+    background-color: rgb(230, 247, 255);
+    width: 100%;
+    z-index: 1;
+    height: auto;
+    padding: 3px;
+    margin-top: 10px;
+    transition: all .5s;
+  }
+
+  .subnav-content a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 1.1em;
+    padding: 14px 16px;
+    transition: all .5s;
+  }
+
+
+.subnav-content a:hover {
+    color: turquoise;
+    transition: all .5s;
+    text-decoration: none;
+}
+  
+.subnav:hover .subnav-content {
+    transition: all .3s;
+    display: block;
+}
+
+.products{
+    border: none;
+    width: 100%;
+}
+
+.products th{
+    text-align: center;
+}
+.products td{
+    padding: 5px;
+}
+
+
+.background1{
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background1{
+    background: linear-gradient(to bottom, #ffffff 0%, #33cccc 100%);
+    height: 750px;
+}
+
+.captionHome{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+.captionHome .border-captionHome {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: #006666;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px rgb(163, 194, 194);
+    padding: 15px;
+    font-size: 2.5em;
+    letter-spacing: 5px;
+  }
+
+  .text-home{
+      text-align: center;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 1em;
+  }
+
+  .contact-home span{
+    display: initial;
+    font-size: 1em;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .socials-home a{
+    display: inline-table;
+    background-color: rgb(4, 70, 87);
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 6px;
+    transition: all .3s;
+  }
+
+  .socials-home a:hover{
+    border: 1px solid ;
+    color: turquoise;
+    transition: all .3s;
+  }
+
+/* footer */
+
+.footer{
+    background-color:rgb(4, 70, 87);
+    color: white;
+    height: 600px;
+    position: relative;
+}
+
+
+.footer .footer-content{
+    height: 450px;
+    display: flex;
+}
+
+.footer .footer-content h1,
+.footer .footer-content h2{
+    color: white;
+}
+
+.footer .footer-content .about h1 span{
+    color: rgb(0, 255, 255);
+}
+
+.footer .footer-content .about .contact span{
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+.footer .footer-content .footer-section{
+    flex: 1;
+    padding: 25px;
+}
+
+
+.footer .footer-content .about .socials a{
+    border: 1px solid white;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 6px;
+    transition: all .3s;
+
+}
+
+
+.footer .footer-content .about .socials a:hover{
+    border: 1px solid ;
+    color: turquoise;
+    transition: all .3s;
+}
+
+.footer .footer-content .links ul a{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    transition: all .3s;
+}
+
+.footer .footer-content .links ul a:hover{
+    color: turquoise;
+    margin-left: 15px;
+    transition: all .3s;
+}
+
+/* button send */
+
+.btn-big{
+    padding:  .7rem 1.3rem;
+    line-height: 1.3rem;
+}
+
+
+.footer .footer-content .contact-form .contact-input{
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    padding: .9rem 1.4rem;
+    background: rgb(61, 84, 92);
+    color: white;
+    border: none;
+}
+
+.footer .footer-content .contact-form .contact-input:focus{
+    background: rgb(36, 51, 66);
+}
+
+
+.footer .footer-content .contact-form .contact-btn{
+    float: right;
+}
+.footer .footer-bottom{
+    background-color: #007a99;
+    color: wheat;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}
+
+
+
+/* Title List */
+.fixList{
+    text-align: center;
+    font-weight: 5px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+
+
+/* color Links */
+ .colorLinks {
+    color: white;
+}
+
+.colorLinks:hover{
+    color: turquoise  ;
+}
+
+/* Fast Links in Footer */
+.fastLinks{
+    display: block;
+    color: white;
+}
+
+.fastLinks:hover{
+    color: turquoise;
+    text-decoration: none;
+}
+
+
+.controlaccordions{
+    text-align: left;
+}
+
+
+.controlbuttons{
+    padding: 10px;
+}
+
+
+.listTypeProducts{
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.listTypeProducts .titleTypeProducts {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: #006666;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px rgb(163, 194, 194);
+    padding: 15px;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+  }
+
+  .backgroundfunctions{
+    background: linear-gradient(to bottom, #ffffff 0%, #33cccc 100%);
+    height: 2360px;
+}

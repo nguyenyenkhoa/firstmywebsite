@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding:  0;
+}
+
+.caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.caption span.border-caption {
+    background-color: rgb(230, 247, 255);
+    color: black;
+    padding: 18px;
+    font-size: 1.5em;
+    letter-spacing: 10px;
+    text-shadow: 3px 3px rgb(163, 194, 194);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+  }
+
+
+
+
+  .productsh3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: rgb(71, 107, 107);
+    font-size: 1.5em;
+    padding: 10px;
+    text-shadow: 2px 2px rgb(163, 194, 194);
+  }
+.yellowstar{
+    color: rgb(230, 230, 0);
+}
+
+.link-products{
+    color: black;
+}
+
+.link-products:hover{
+    text-decoration: none;
+    transition: .3s ease;
+
+}
+.link-products .card-border:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .5s ease;
+
+}
+.img-products{
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+.background-product{
+    background-image: url("../../assets/images/background/bgProduct0.jpg");
+    height: 800px;
+    position: relative;
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.margincards{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

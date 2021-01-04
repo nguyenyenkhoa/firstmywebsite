@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding:  0;
+}
+
+
+
+.backgroundP1, .backgroundP2, .backgroundP3, .backgroundP4{
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backgroundP1{
+    background-image: url("../../assets/images/background/bgProduct0.jpg");
+    height: 800px;
+}
+
+.backgroundP2{
+    background-image: url("../../assets/images/background/bgProduct3.jpg");
+    height: 500px;
+}
+
+
+.backgroundP3{
+    background-image: url("../../assets/images/background/bgProduct4.jpg");
+    height: 500px;
+}
+
+.backgroundP4{
+    background-image: url("../../assets/images/background/bgProduct6.jpg");
+    height: 700px;
+}
+.caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.caption span.border-caption {
+    background-color: rgb(230, 247, 255);
+    color: black;
+    padding: 18px;
+    font-size: 1.5em;
+    letter-spacing: 10px;
+    text-shadow: 3px 3px rgb(163, 194, 194);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+  }
+
+
+  .text-intro{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding: 10px;
+    color: white;
+  }

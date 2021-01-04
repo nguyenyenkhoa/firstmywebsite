@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding:  0;
+}
+
+
+.background2{
+    background-color: rgb(230, 247, 255);
+    background-repeat: no-repeat;
+    background-position: bottom right; 
+    height: 600px;
+    box-sizing: content-box;
+    margin-bottom: 20px;
+}
+
+
+
+.listnews{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+    color: rgb(92, 138, 138);
+    font-size: 1.5em;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 70px;
+    height: 100%;
+}
+
+
+.newsh1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-top: 100px;
+    color: rgb(71, 107, 107);
+    font-size: 5em;
+    text-align: left;
+    padding: 10px;
+    height: 460px;
+    border-right: 2px solid rgb(71, 107, 107) ;
+    text-shadow: 3px 3px rgb(163, 194, 194);
+}
+
+
+.newsh2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: rgb(71, 107, 107);
+  font-size: 2em;
+  text-align: left;
+  padding: 10px;
+  text-shadow: 2px 2px rgb(163, 194, 194);
+}
+
+.newsh3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: rgb(71, 107, 107);
+  font-size: 1.5em;
+  text-align: left;
+  padding: 10px;
+  text-shadow: 2px 2px rgb(163, 194, 194);
+}
+
+
+
+.backgroundcol1{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    backface-visibility: hidden;
+}
+
+/* .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  .col-md-6:hover .backgroundcol1 {
+    opacity: 0.3;
+  }
+  
+  .col-md-6:hover .middle {
+    opacity: 1;
+  } */
+
+  .text {
+    background-color: rgb(71, 107, 107);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    box-shadow: 2px 2px grey;
+    text-align: justify;
+  }
+
+.margin-news{
+  margin-bottom: 50px;
+}
+
+.tablenews{
+  border: 1px solid white;
+  width: 100%;
+}
+
+.tablenews th{
+  border-bottom: 1px solid white;
+  padding: 10px;
+  text-align: center;
+}
+  .tablenews td{
+    padding: 10px;
+    text-align: center;
+  }
+
+  .tablenews td ul{
+    text-align: left;
+    padding-left: 10px;
+  }
+
+
+  .card-color{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .text-color{
+    color: white;
+  }
+
+  .btn-links{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 0.5em;
+  }
+
+  .backgroundsuprow1{
+    margin-top: 20px;
+    margin-left: 17px;
+    background-color: rgb(209, 224, 224);
+    width: 535px;
+    box-shadow: 5px 5px rgb(134, 172, 172);
+  }
+
+
+  .bricks{
+    height: 80px;
+    width: 80px;
+  }
+  .backgroundsuprow1 p{
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+  }
+
+  .newsh2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: rgb(71, 107, 107);
+    font-size: 3em;
+    text-align: center;
+    padding: 10px;
+    height: 300px;
+    text-shadow: 2px 2px rgb(163, 194, 194);
+    margin-top: 30px;
+    padding: 10px;
+  }
+
+
+.backgroundsuprow2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/products/bricks/wall/wall3.jpg");
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 20px;
+  display: block;
+  }
+
+
+  .hero-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+    transition: all .5s;;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+    transition: all .5s;;
+  }
+
+
+
+  
+  .content-relative{
+    position: relative;
+    width: 100%;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.7);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text-news {
+    padding: 20px;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: justify;
+  }
+
+  .table-saleoff{
+    border: 1px solid white;
+    width: 100%;
+  }
+
+  .table-saleoff th{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+  }
+
+  .table-saleoff td{
+    text-align: center;
+    padding: 20px;
+  }
+
+  .saleoff{
+    width: 520px;
+    height: 170px;
+  }
+
+  .newsfeed{
+    /* -ms-transform: rotate(270deg);
+    transform: rotate(270deg); */
+    height: 260px;
+    width: 100%;
+    background-color: rgb(230, 247, 255);
+  }
+
+
+  .padding-news{
+    margin-top: 70px;
+    padding: 20px;
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+  }
+
+
+  .card-news{
+    width: 280px;
+    height: 300px;
+    margin-top: 5%;
+    margin-left: 25%;
+  }
+
+  .table-news{
+    margin: 0px;
+  }
